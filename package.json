@@ -18,8 +18,17 @@
   "license": "ISC",
   "jest": {
     "testEnvironment": "node"
-  },"bugs": {
+  },
+  "bugs": {
     "url": "https://github.com/apike2000/shipping-service/issues"
   },
-  "homepage": "https://github.com/apike2000/shipping-service#readme"
+  "homepage": "https://github.com/apike2000/shipping-service#readme",
+  "devDependencies": {
+    "nock": "^11.7.2",
+    "sinon": "^8.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
 }
